@@ -48,13 +48,6 @@ yarn dev
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-## Deployment
-
-You can deploy this application on Vercel, Netlify, or any other hosting platform that supports Next.js:
-
-- [Vercel Deployment](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example)
-- [Netlify Deployment](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/)
-
 ## Usage
 
 1. **Add a new column** by entering a title in the input field at the top and clicking "Add Column"

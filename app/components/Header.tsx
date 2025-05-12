@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <h1 className="text-white text-xl font-bold">Task Management Board</h1>
         <div className="text-white text-sm">
           <a 
-            href="https://github.com/yourusername/task-management" 
+            href="https://github.com/brainless-coder/taks-management-board" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:underline text-white font-medium"
