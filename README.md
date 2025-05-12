@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Management Board
+
+A simple task management board with dynamic columns built with React.js and Next.js.
+
+## Features
+
+- Create, edit, and delete tasks
+- Create and delete columns
+- Move tasks between columns
+- Responsive design
+- Persistent storage using localStorage
+
+## Technologies Used
+
+- React.js
+- Next.js
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (version 18 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/task-management.git
+cd task-management
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can deploy this application on Vercel, Netlify, or any other hosting platform that supports Next.js:
 
-## Learn More
+- [Vercel Deployment](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example)
+- [Netlify Deployment](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/)
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Add a new column** by entering a title in the input field at the top and clicking "Add Column"
+2. **Add a task** by clicking the "Add Task" button within a column
+3. **Move a task** between columns by clicking "Move to..." and selecting the destination column
+4. **Delete a task** by clicking the "Delete" button on the task
+5. **Delete a column** by clicking the "Remove" button at the top of a column (note: there must be at least one column)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
