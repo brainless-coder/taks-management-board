@@ -28,7 +28,7 @@ const Board: React.FC = () => {
   useEffect(() => {
     setColumns(cachedData);
     setIsLoading(false);
-  }, []); // Run only once on mount
+  }, [cachedData]); // Add cachedData as a dependency
   
   // Memoize the update function to avoid dependency changes
   const updateCache = useCallback((data: ColumnType[]) => {

@@ -155,7 +155,7 @@ const Column: React.FC<ColumnProps> = ({
         ))}
         {tasks.length === 0 && (
           <div className="text-center py-6 text-gray-500 italic text-sm">
-            Drop tasks here or use "Add Task" button
+            Drop tasks here or use &ldquo;Add Task&rdquo; button
           </div>
         )}
       </div>

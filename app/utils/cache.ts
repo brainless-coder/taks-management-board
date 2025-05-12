@@ -1,7 +1,7 @@
 "use client";
 
 import { cache } from 'react';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { ColumnType } from '../types';
 
 const CACHE_KEY = 'taskManagementData';
