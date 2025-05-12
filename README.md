@@ -2,6 +2,8 @@
 
 A simple task management board with dynamic columns built with React.js and Next.js.
 
+### Vercel Link: https://task-management-board-delta.vercel.app/
+
 ## Features
 
 - Create, edit, and delete tasks
